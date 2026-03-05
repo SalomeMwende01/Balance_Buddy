@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'Accounts',
     'Billing',
-    'landing_page',
+    'landing_page.apps.LandingPageConfig',
 ]
 
 MIDDLEWARE = [
